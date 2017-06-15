@@ -7,7 +7,8 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface Hss {
+public @interface HSS
+{
 	public int limitInstructions() default 26;
 
 	public int limitCyclomatic_complexity() default 5;

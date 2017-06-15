@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Blob {
+public @interface BLOB{
 	public int limitMethods() default 22;
 
 	public int limitAttributes() default 13;

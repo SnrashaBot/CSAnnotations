@@ -6,8 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-public @interface Hmu {
-	public String used() default "HashMap";
-	public String use() default "ArrayMap";
+@Target(ElementType.TYPE)
+public @interface IOD {
+	public int countBadOnDraw() default 0;
 }

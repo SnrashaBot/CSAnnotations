@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Iwr {
+public @interface IWR {
 	public int countInvalide() default 0;
 
 }
