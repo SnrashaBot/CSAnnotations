@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Sak {
+public @interface SAK {
 	public int limitMethods() default 13;
 	public int currentMethods() default 0;
 

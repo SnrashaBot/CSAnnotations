@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface Has {
+public @interface HBR {
 	public int limitInstructions() default 26;
 
 	public int limitCyclomatic_complexity() default 5;

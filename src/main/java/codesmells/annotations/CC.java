@@ -7,5 +7,8 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Nlmr {
+public @interface CC {
+	public int limitClass_complexity() default 43;
+
+	public int currentClass_complexity() default 0;
 }
